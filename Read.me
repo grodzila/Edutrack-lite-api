@@ -1,0 +1,22 @@
+EduTrack Lite is a lightweight course enrollment and tracking API built with FastAPI. It allows users to register, enroll in courses, track completion, and manage course offerings — all using in-memory storage and Pydantic validation.
+
+ Features
+- User Management
+- Create, read, update, delete users
+- Deactivate users
+- Course Management
+- Create, read, update, delete courses
+- Close course enrollment
+- View enrolled users per course
+- Enrollment Management
+- Enroll active users in open courses
+- Prevent duplicate enrollments
+- Mark course completion
+- View enrollments by user or globally
+
+ Tech Stack
+- FastAPI for API framework
+- Pydantic for data validation
+- Uvicorn as ASGI server
+- Pytest + TestClient for testing
+- In-memory storage (lists/dicts)
